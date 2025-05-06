@@ -8,7 +8,7 @@ const navItems = ['about', 'skills', 'experience',]
 function Header() {
     // const { mode } = parentToChild;
 
-    const [mobileOpen, setMobileOpen] = useState<boolean>(false);
+    // const [mobileOpen, setMobileOpen] = useState<boolean>(false);
     const [scrolled, setScrolled] = useState<boolean>(false);
     useEffect(() => {
         const handleScroll = () => {
@@ -26,7 +26,7 @@ function Header() {
         };
     }, []);
 
-    const scrollToSection = (section) => {
+    const scrollToSection = (section: string) => {
         const element = document.getElementById(section);
         if (element) {
             element.scrollIntoView({ behavior: 'smooth' })
