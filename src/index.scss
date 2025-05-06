@@ -160,7 +160,7 @@
     }
 }
 .navigation{
-    justify-content: space-between;
+    justify-content: flex-end;
     background-color: #f8f9fa;
 }
 
@@ -291,21 +291,25 @@ a {
             margin-top: -30px;
         }
         .skills-container {
-    display: flex;
-    margin: 0 auto;
-    position: relative;
-    padding: 2% 10%;
-    // padding-top: 1%;
-    // padding-bottom: 2%;
-    // padding-left: 2%;
-    // padding-right: 2%;
-    width: 75%;
-    background-color: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
-    color: #141c3a;
-    display: block;
-}
+            display: flex;
+            margin: 0 auto;
+            position: relative;
+            padding: 2% 10%;
+            // padding-top: 1%;
+            // padding-bottom: 2%;
+            // padding-left: 2%;
+            // padding-right: 2%;
+            width: 75%;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+            color: #141c3a;
+            display: block;
+        }
+        .navigation{
+            justify-content: flex-start;
+            background-color: #f8f9fa;
+        }
  }
 
  .skillset-title {
@@ -321,7 +325,7 @@ a {
         box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
     }
 }
-.navigation-bar {
+.navigation {
   svg {
     color: #0d1116;
   }
