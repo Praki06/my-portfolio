@@ -10,7 +10,7 @@ function Experience() {
                     <h1>Experience</h1>
                     <VerticalTimeline>
                         <VerticalTimelineElement className="vertical-timeline-element--work"
-                            contentStyle={{ background: 'beige', color: 'rgb(39, 40, 34)' }}
+                            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
                             contentArrowStyle={{ borderRight: '7px solid rgba(0, 0, 0, 0.08) ' }}
                             date="2020 - present"
                             iconStyle={{ background: '#6E07F3', color: '#fff' }}
