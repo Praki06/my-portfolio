@@ -3,7 +3,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import { useEffect, useState } from 'react';
 
-const navItems = ['about', 'skills', 'experience',]
+const navItems = ['about', 'skills', 'experience', 'resume']
 
 function Header() {
     // const { mode } = parentToChild;
@@ -27,9 +27,13 @@ function Header() {
     }, []);
 
     const scrollToSection = (section: string) => {
-        const element = document.getElementById(section);
-        if (element) {
-            element.scrollIntoView({ behavior: 'smooth' })
+        if (section === 'resume') {
+            window.open('/Prakash-Sathiakumar.pdf')
+        } else {
+            const element = document.getElementById(section);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' })
+            }
         }
     }
     return (

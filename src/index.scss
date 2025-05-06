@@ -111,11 +111,21 @@
   justify-content: center;
 }
 
-.about-container {
+.about-container, .experience-container {
     padding: 5% 10%;
     display: flex;
     flex-direction: column;
     text-align: left;
+    h1 {
+            display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    }
 }
 
 .about-section {
@@ -216,7 +226,11 @@ a {
     display: flex;
     margin: 0 auto;
     position: relative;
-    padding: 5% 10%;
+    padding: 2% 10%;
+    // padding-top: 1%;
+    // padding-bottom: 2%;
+    // padding-left: 2%;
+    // padding-right: 2%;
     width: 50%;
     background-color: #ffffff;
     border-radius: 12px;
@@ -274,3 +288,28 @@ a {
             width: 100%;
         }
  }
+
+ .skillset-title {
+    text-align: center;
+    // margin-top: -10px;
+ }
+
+ .flex-chips {
+    line-height: 2;
+    .chip {
+        background-color: rgb(255, 255, 255);
+        margin: 5px;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+    }
+}
+
+
+.vertical-timeline--animate .vertical-timeline-element-content.bounce-in{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+}
+
+.skill-logo{
+  width: 54px; /* Adjust size as needed */
+  height: 34px;
+  margin-top: 1px
+}
