@@ -6,6 +6,8 @@ import JsLogo from '../assets/javascript-logo.svg'
 import TSLogo from '../assets/typescriptlang-icon.svg'
 import NodeLogo from '../assets/nodejs-icon.svg'
 import expressLogo from '../assets/expressjs-icon.svg'
+type SkillName = 'React' | 'TypeScript' | 'Javascript' | 'Nodejs' | 'ExpressJs' | 'HTML' | 'CSS';
+
 const skillLabels = [
     'React',
     'TypeScript',
@@ -15,7 +17,7 @@ const skillLabels = [
     'HTML',
     'CSS'
 ]
-const skillLogos = {
+const skillLogos: Record<SkillName, string> = {
     'React': ReactLogo,
     'TypeScript': TSLogo,
     'Javascript': JsLogo,
@@ -99,7 +101,7 @@ function Skills() {
 
                                 {skillLabels.map(skill => (
                                     <>
-                                        <Chip label={skill} className="chip" avatar={<Avatar src={skillLogos[skill]} />} />
+                                        <Chip label={skill} className="chip" avatar={<Avatar src={skillLogos[skill as SkillName]} />} />
                                     </>
                                 ))}
                             </div>
