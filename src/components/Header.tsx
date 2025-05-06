@@ -64,7 +64,7 @@ function Header() {
         <Box component="nav" sx={{ display: 'flex' }}>
             <CssBaseline />
             <AppBar component="nav" id="navigation" className={`navbar-fixed-top${scrolled ? ' scrolled' : ''}`}>
-                <Toolbar className='navigation-bar'>
+                <Toolbar className='navigation'>
                     <IconButton
                         color="inherit"
                         aria-label="open drawer"
