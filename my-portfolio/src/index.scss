@@ -1,0 +1,276 @@
+::-webkit-scrollbar {
+    width: 8px;
+    border-left: 1px solid #E6ECF8
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #141c3a
+}
+// .main-container {
+//     position: relative;
+//     // background-color: #0d1116;
+  
+//   }
+// .navigation{
+//     justify-content: space-between;
+//     background-color: #f8f9fa;
+// }
+
+// .skills-container {
+//     padding: 5% 10%;
+//     display: flex;
+//     flex-direction: column;
+//     text-align: left;
+
+//     svg {
+//         color: white;
+//     }
+// }
+
+// .skills-container .skills-grid {
+//     display: grid;
+//     grid-template-columns: repeat(3, 1fr);
+//     grid-gap: 50px;
+// }
+  
+// .skills-container .skills-grid .skill {
+//     align-items: center;
+//     text-align: left;
+// }
+// .flex-chips {
+//     line-height: 2;
+// }
+// .chip {
+//     color: rgb(39, 40, 34) !important;
+//     margin-right: 10px;
+//     background-color: white !important;
+//     font-size: 0.8rem !important;
+//     height: 25px !important;
+//     box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+//     span {
+//         font-family: 'Courier Prime', monospace;
+//         color: rgb(39, 40, 34);
+//     }
+  
+//     svg {
+//         height: 15px !important;
+//     }
+// }
+
+// .about-section .content {
+//     text-align: left;
+//     z-index: 2;
+
+//     .social_icons {
+//         display: flex;
+//         flex-direction: row;
+//         gap: 10px;
+//         color: white;
+
+//         svg {
+//             font-size: 1.8em;
+//         }
+//     }
+
+//     .mobile_social_icons {
+//         display: none;
+//     }
+
+//     p {
+//         font-size: 1.5em;
+//         margin-block-start: 0px;
+//         margin-block-end: 0px;
+//     }
+
+//     h1 {
+//         font-size: 5em;
+//         margin-block-start: 0px;
+//         margin-block-end: 0px;
+//     }
+// }
+
+.about-section .image-wrapper {
+    z-index: 2;
+    img {
+        width: 150px;
+        border-radius: 50%;
+    }
+}
+
+// .about p {
+//     text-align: center;
+//     padding-top: 30%;
+//     padding-bottom: 30%;
+// }
+.container {
+  margin-top: 64px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-container {
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    min-height: 700px;
+    width: 100%;
+    padding: 0px 15%;
+        background-image: url('./assets/enhanced-wave-background.svg');
+    // background-image: url('./assets/purple-waves-background.svg');
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+    h1 {
+        font-size: 5em;
+        margin-block-end: 0;
+        margin-block-start: 0;
+    }       
+    p {
+        font-size: 1.5em;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    }
+    .linkedin_icon {
+        color: black;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+}
+.navigation{
+    justify-content: space-between;
+    background-color: #f8f9fa;
+}
+
+
+.sections {
+    color: #0d1116 !important;
+}
+
+.about-section {
+    //  display: flex;
+    // gap: 30px;
+    // justify-content: flex-start;
+    // align-items: center;
+    // width: 100%;
+    // padding: 0px 15%;
+    // min-height: 700px;
+    // background-image: url("../images/bg-dark.png");
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-attachment: fixed;
+    // background-position: center;
+
+    // .linkedin_icon {
+    // color: black;
+    // display: flex;
+    // flex-direction: row;
+    // gap: 10px;
+    // }
+}
+
+a {
+    color: #0d1116;
+}
+
+.vertical-timeline::before {
+    background-color: rgba(0, 0, 0, 0.08) !important;
+}
+
+.container {
+    background-image: url('./assets/enhanced-wave-background.svg');
+    // background-image: url('./assets/purple-waves-background.svg');
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.skills-section {
+//     //   padding: 80px 0 50px; /* Extra top padding to accommodate the overlapping tech stack box */
+  margin-top: -50px;
+//    background-color: white;
+//   border-radius: 8px;
+//   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+//   padding: 20px 30px;
+//   max-width: 800px;
+//   margin: 0 auto;
+// //   position: relative;
+//   top: 50px; /* Pushes the container down to create overlap */
+//   z-index: 10; 
+}
+
+.skills-container {
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    padding: 5% 10%;
+    width: 50%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+    color: #141c3a;
+    display: block;
+}
+
+ @media (max-width:768px) { 
+     .about-section h1 {
+            font-size: 4em !important;
+            text-align: left;
+        }
+
+        .about-section p {
+            text-align: left;
+        }
+
+        .container {
+            display: initial;
+        }
+
+        .social_icons {
+            display: none !important;
+        }
+
+        .mobile_social_icons {
+            padding-top: 10px;
+            display: flex !important;
+            flex-direction: row;
+            gap: 10px;
+            color: white;
+    
+            svg {
+                font-size: 1.8em;
+            }
+        }
+
+        .about-section {
+            padding-top: 150px;
+            display: block;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .about-section .content {
+            width: 90%;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-bottom: 5%;
+        }
+
+        .about-section .image-wrapper {
+            padding-left: 5%;
+            width: 100%;
+        }
+ }
