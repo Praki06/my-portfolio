@@ -1,6 +1,5 @@
 import { AppBar, Box, Button, CssBaseline, IconButton, Toolbar } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu';
-import DarkModeIcon from '@mui/icons-material/DarkMode';
 import { useEffect, useState } from 'react';
 import Drawer from '@mui/material/Drawer';
 import Divider from '@mui/material/Divider';
